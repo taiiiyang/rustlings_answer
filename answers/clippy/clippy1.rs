@@ -13,7 +13,7 @@ use std::f32;
 fn main() {
     // let pi = 3.14f32;
     let radius = 5.00f32;
-    // 使用 f32::consts::PI 做为圆周率
+
     let area = PI * f32::powi(radius, 2);
 
     println!(
